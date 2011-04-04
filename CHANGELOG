@@ -1,3 +1,31 @@
+0.3.13
+  * fixed problem that doesn't allow toString methods
+  * fixed string sanitizer problem with double quotes
+  * JSML POC 
+
+0.3.12
+  * fixed parse error in JSMLElement
+  * Yanking 0.3.11
+
+0.3.11
+  * fixed minor issue finding Rails.root in rack
+  * Yanking 0.3.10
+
+0.3.10
+  * fixed foreach boolean
+  * fixed https://github.com/jeffsu/js2/issues#issue/1
+  * Rack to try and use Rails.root otherwise, use cwd
+  * put boundaries in lexer for js2 keywords
+  * made regex/divide solution more robust
+
+0.3.9
+  * fixed regex/divide issue
+
+0.3.8
+  * fied "render"
+  * fixed comment block bug
+  * using target-dir instead of out-dir
+
 0.3.7
   * fixed foreach counter
 
@@ -8,7 +36,7 @@
 
 0.3.5
   * Added scope and binding support to shorthand functions
-	* Added support for modules
+  * Added support for modules
 
 0.3.4
   * coded reduce to clojure spec
