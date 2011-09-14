@@ -1,3 +1,0 @@
-var JS2 = require('js2-full').JS2;
-system.args.shift();
-(new JS2.Commander(system.args)).cli();
